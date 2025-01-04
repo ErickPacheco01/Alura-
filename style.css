@@ -126,3 +126,52 @@ body {
     background-color: var(--cor-do-botao-efeito);
     color: var(--plano-de-fundo);
 }
+
+@media( max-width: 1000px){
+
+    .container{
+        grid-template-columns: 100%;
+        height: auto;
+        width: auto;
+    }
+    .container__descricao{
+        padding: 0;
+    }
+    .container__caixa{
+        padding-top: 15em;
+    }
+    .container__titulo{
+        font-size: 25px;
+    }
+    .secundario{
+        display: flex;
+        gap: 2em;
+        margin: 50px 10px;
+    }
+    .secundario__imagem{
+        width: 60%;
+    }
+    .descricao__titulo{
+        font-size: 30px;
+    }
+    .descricao__texto{
+        font-size: 15px;
+    }
+    .dispositivos__titulo{
+        font-size: 35px;
+    }
+    .dispositivos__lista{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .lista__item{
+        font-size: 20px;
+    }
+    .lista__link{
+        font-size: 12px;
+    }
+    .rodape__texto{
+        font-size: 8px;
+    }
+}
